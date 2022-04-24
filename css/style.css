@@ -1,0 +1,331 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #475f45;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.title {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57px;
+  line-height: 110%;
+  text-transform: capitalize;
+}
+
+.subtitle {
+  font-family: "Libre Baskerville", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 110%;
+  text-transform: capitalize;
+}
+
+.header__content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__content{
+  display: flex;
+  padding-top: 87px;
+  justify-content: space-between;
+}
+
+.hero__info{
+  padding-top: 284px;
+  padding-right: 106px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__pic {
+  display: flex;
+}
+
+.logo__text {
+  margin-left: 14px;
+}
+
+.logo__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 27px;
+}
+
+.logo__subtitle{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  right: 101px;
+  top: 22px;
+}
+
+.nav__frame{
+  border: 2px solid #475F45;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item{
+  margin-left: 42.0px;
+}
+
+.title {
+  top: 208px;
+  display: flex;
+  left: 182px;
+}
+
+.hero__img {
+  border-radius: 500px 500px 0px 0px;
+  display: flex;
+  left: 834px;
+  top: 182px;
+}
+
+.about__info {
+  color: #414840;
+}
+
+
+.btn{
+  border: 2px solid #475F45;
+  display: block;
+  padding: 20px 40px;
+  margin-right: 33px;
+}
+
+.btn--active{
+  align-items: center;
+  background: #475F45;
+  color: white;
+  display: block;
+  padding: 20px 40px;
+  margin-right: 33px;
+  display: flex;
+}
+
+.hero__desc{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 150%;
+  color: #414840;
+}
+
+.about__section{
+  background-color: #343D33;
+  width: 1400px;
+  height: 1035px;
+  left: 10px;
+  top: 919px;
+}
+
+.about{
+  padding: 96px 0px;
+  background-color: #343D33;
+}
+
+
+.about__top-img{
+  position: absolute;
+  width: 534px;
+  height: 354px;
+  left: 179px;
+  top: 1015px;
+}
+
+.about__bottom-img{
+  position: absolute;
+  width: 1040px;
+  height: 409px;
+  left: 176px;
+  top: 1452px;
+}
+
+.subtitle{
+  color: white;
+  position: absolute;
+  font-weight: 400;
+  font-size: 45px;
+  left: 802px;
+  top: 1015px;
+}
+
+.about__info{
+  color: white;
+  position: absolute;
+  left: 802px;
+  top: 1147px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.btn--white{
+  border: 2px solid white;
+  color: white;
+  left: 816px;
+  top: 1299px;
+  align-items: center;
+  position: absolute;
+}
+
+
+.new {
+  padding: 96px 0px;
+}
+
+.news__subtitle {
+  color: #343D33;
+  font-size: 45px;
+  left: 99px;
+  top: 2050px;
+}
+
+.news__content {
+  display: flex;
+}
+.news__item {
+  display: flex;
+  margin: 90px;
+}
+.news__item--big {
+  width: 43%;
+  flex-direction: column;
+}
+
+.news__item--big .news__img-wrap{
+  width: 100%;
+  height: 333px;
+}
+
+.news__img-wrap {
+  width: 236px;
+  height: 151px;
+  overflow: hidden;
+}
+.news__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.news__item-desc {
+  flex: 1;
+}
+.news__item-title {
+  color: #475F45;
+  font-size: 23px;
+}
+.news__item-text {
+}
+.news__item-date {
+}
+.news__list {
+}
+
+.footer {
+  background: #414840;
+}
+.footer__top {
+}
+.container {
+}
+.footer__container {
+}
+.footer__column {
+}
+.footer__logo-block {
+}
+.logo {
+}
+.logo__img {
+}
+.logo__pic {
+}
+.logo__text {
+}
+.logo__title {
+}
+.logo__subtitle {
+}
+.footer__info {
+}
+.footer__subtitle {
+}
+.footer__nav {
+}
+.footer__nav-list {
+}
+.footer__nav-item {
+}
+.footer__nav-link {
+}
+.social__list {
+}
+.social__item {
+}
+.social__link {
+}
+.twitter {
+}
+.fb {
+}
+.in {
+}
+.mail {
+}
+.footer__bottom {
+}
